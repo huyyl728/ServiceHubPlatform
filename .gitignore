@@ -1,0 +1,63 @@
+# ===================================
+# ServiceHubPlatform - .gitignore
+# ASP.NET Core 10 / C#
+# ===================================
+
+# .NET build outputs
+bin/
+obj/
+Debug/
+Release/
+
+# Visual Studio / VS Code / Rider
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# Logs
+*.log
+logs/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+secrets.json
+appsettings.Local.json
+appsettings.*.local.json
+appsettings.Production.json
+appsettings.Staging.json
+
+# Certificates and private keys
+*.pfx
+*.p12
+*.pem
+*.key
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Test and coverage outputs
+TestResults/
+coverage/
+coverage-results/
+*.coverage
+*.coveragexml
+
+# NuGet packages
+*.nupkg
+packages/
+
+# Temporary files
+*.tmp
+*.bak
+*~
